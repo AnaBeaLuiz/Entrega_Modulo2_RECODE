@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="pt">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meleva Tour - Sua agência de turismo!</title>
+    <link href="./css/reset.css" rel="stylesheet">
+    <link rel="stylesheet" href="./css/login.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+        crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div>
+        <nav class="navbar navbar-expand-lg" style="background-color: #ffffff">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="./index.html"><img src="./img/meleva.png" sizes="10px" alt="Logo Meleva Tour"></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="./index.html">Home</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                Destinos
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="./nacionais.html">Nacionais</a></li>
+                                <li><a class="dropdown-item" href="./internacionais.html">Internacionais</a></li>
+                                <li>
+                                    <hr class="dropdown-divider">
+                                </li>
+                                <li><a class="dropdown-item" href="./promocoes.html">Promoções</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./contato.html">Contato</a>
+                        </li>
+                    </ul>
+                    <a href="./cadastro.html" class="btn" type="submit"
+                        style="border: 1px; border-style:double; border-radius: 5px; margin: 10px;">Cadastre-se</a>
+                    <a href="./login.html" class="btn" type="submit"
+                        style="border: 1px; border-style:double; border-radius: 5px; margin: 10px">Acesse sua conta</a>
+                </div>
+            </div>
+        </nav>
+    </div>
+
+    <div class="container d-flex">
+        <form class="container-fluid">
+            <div class="row">
+                <div class="col-md-7 mb-3">
+                    <label for="exampleFormControlInput1" class="form-label">E-mail:</label>
+                    <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+                </div>
+                <div class="col-md-5 mb-3">
+                    <label for="exampleInputPassword1" class="form-label">Senha:</label>
+                    <input type="password" class="form-control" id="exampleInputPassword1" placeholder="******">
+                </div>
+                <div class="mb-3 form-check">
+                    <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                    <label class="form-check-label" for="exampleCheck1">Mantenha-me conectado!</label>
+                </div>
+                <div class="col-12">
+                    <button type="submit" class="btn btn-primary">Entrar</button>
+                </div>
+            </div>
+        </form>
+    </div>
+
+    <div class="footer">
+        <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+            © 2023 Copyright:
+            <a class="text-dark" href="./index.html">Meleva Tour</a>
+        </div>
+    </div>
+
+</body>
+
+</html>
+

@@ -1,0 +1,32 @@
+.titulo {
+    text-align: center;
+    margin: 10px;
+}
+
+.container {
+    margin: 10px;
+}
+
+.card {
+    margin: 10px;
+}
+
+@media(max-width:850px) {
+    .container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .card {
+        display: flex;
+        justify-content: space-around;
+        margin: 10px;
+    }
+
+    .footer {
+        position: relative;
+    }
+
+}
+
